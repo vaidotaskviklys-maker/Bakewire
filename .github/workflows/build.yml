@@ -1,0 +1,31 @@
+name: Test BAKEWIRE build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript
+        run: node --check site.mjs
+      - name: Build static magazine
+        run: npm run build
+      - name: Validate output
+        run: |
+          test -f dist/index.html
+          test -f dist/robots.txt
+          test -f dist/rss.xml
+          test -f dist/istorijos/tesla-cybercab/index.html
+          test -f dist/istorijos/claude-meetings/index.html
+          test -f dist/numeriai/2026-11-21/index.html
+          test -f dist/playbook/index.html
+          test -f dist/playbook/nostalgija-ir-ritualai/index.html
+          grep -q 'noindex' dist/index.html
+          echo "BAKEWIRE output passed file checks"
