@@ -1,0 +1,145 @@
+{
+  "site": {
+    "name": "BAKEWIRE",
+    "tagline": "Fresh news. Sharp takes.",
+    "language": "lt",
+    "description": "Marketingas, technologijos, AI ir verslas. Naujienos su požiūriu: kas įvyko, kodėl svarbu ir ką iš to pasiimti.",
+    "status": "Bandomasis redakcinis leidinys · paskutinė faktų patikra prieš viešą publikaciją"
+  },
+  "issue": {
+    "slug": "2026-11-21",
+    "label": "NR. 01",
+    "date": "2026-11-21",
+    "title": "Nuo fakso iki orbitos",
+    "intro": "Technologijos juda greičiau nei įmonių įpročiai. Atrinkome devynias istorijas apie produktus, marketingą, verslą ir žmones. Kiekvienai – aiškus klausimas: kas iš to?"
+  },
+  "posts": [
+    {
+      "slug": "microsoft-365-faksas",
+      "category": "Technologijos",
+      "kicker": "01 / TECH",
+      "title": "„Microsoft 365“ užlūžo. O kai kas prisiminė faksą.",
+      "summary": "Didelis debesijos sutrikimas priminė, kad verslo tęstinumo planas negali priklausyti nuo vieno tiekėjo.",
+      "body": "Kai stringa el. paštas ir susirašinėjimas, sustoja ne technologija – sustoja įprastas darbo būdas. Šis „Microsoft“ paslaugų sutrikimas priminė, kad net stambios organizacijos kartais ieško senamadiškų sprendimų: telefono, fakso ar tiesiog kito kanalo.\n\nĮvykis įdomus tuo, kad mūsų efektyvumas dažnai remiasi labai nedideliu skaičiumi kritinių paslaugų. Kuo labiau jas sujungiame, tuo mažiau lieka alternatyvų, kai vienas mazgas neveikia.",
+      "take": "Verslo tęstinumo planas turi būti išbandytas praktiškai. Kada paskutinį kartą tikrinote, kaip jūsų komanda dirbtų be pagrindinio el. pašto ir „Teams“?",
+      "source": "https://www.investing.com/news/stock-market-news/faxes-phones-and-bluetooth-microsoft-outage-forces-businesses-find-fixes-5026009",
+      "color": "#31516B",
+      "symbol": "503"
+    },
+    {
+      "slug": "nvidia-vadovybes-krize",
+      "category": "Verslas",
+      "kicker": "02 / BUSINESS",
+      "title": "NVIDIA ir vieno žmogaus rizika.",
+      "summary": "Vadovo reputacija gali auginti įmonę. Bet priklausomybė nuo asmenybės turi kainą.",
+      "body": "Technologijų įmonėms vadovas neretai tampa prekės ženklo veidu. Tai veikia, kai asmeninis autoritetas padeda pritraukti talentus, investuotojus ir partnerius. Tačiau krizės akimirka iškelia kitą klausimą: kiek įmonės reputacijos priklauso nuo vieno žmogaus?\n\nViešoje erdvėje pasirodžius nepatikrintų kaltinimų apie asmeninį gyvenimą, svarbu nesupainioti gandų su įrodytais faktais. Ši istorija mūsų žurnale nagrinėjama kaip korporatyvinės valdysenos ir komunikacijos pamoka, o ne bulvaras.",
+      "take": "Stiprus asmeninis prekės ženklas nėra tas pats, kas stipri valdymo sistema. Ką apie jūsų įmonę žmonės žinotų, jeigu jos lyderis rytoj pasitrauktų?",
+      "source": "https://www.reuters.com/legal/transactional/silicon-valley-leaders-back-call-jensen-huangs-return-nvidia-2026-11-16/",
+      "color": "#315847",
+      "symbol": "AI"
+    },
+    {
+      "slug": "spacex-starship",
+      "category": "Technologijos",
+      "kicker": "03 / TECH",
+      "title": "„SpaceX“ ir raketa, kuri grįžta pati.",
+      "summary": "Sudėtinga inžinerija įspūdinga, bet dar įdomesnis jos poveikis ekonomikai.",
+      "body": "„SpaceX“ bandymai grąžinti didžiules raketų pakopas keičia pokalbį apie kosmoso logistiką. Grįžtantys ir pakartotinai naudojami komponentai nėra tik reginys. Jeigu tokia sistema veiks reguliariai, keisis paleidimų kaina ir dažnumas.\n\nTechnologijų istorijose svarbu skirti demonstraciją nuo verslo mastelio. Sėkmingas bandymas parodo galimybę, tačiau tik daugkartinis naudojimas ir patikimumas parodo ekonominį pranašumą.",
+      "take": "Produkto demonstracija gali tapti stipriausia reklama, kai joje aiškiai matomas pažangos įrodymas. Ką jūsų klientas galėtų pamatyti pats, o ne tik perskaityti reklamoje?",
+      "source": "https://www.spacex.com/launches/starship-flight-15/",
+      "color": "#41434A",
+      "symbol": "↗"
+    },
+    {
+      "slug": "claude-meetings",
+      "category": "AI",
+      "kicker": "04 / AI",
+      "title": "AI ateina į susirinkimą. Ir pradeda dirbti.",
+      "summary": "Nuo transkripcijų pereinama prie užduočių ir dokumentų rengimo realiu laiku.",
+      "body": "Susitikimų AI įrankiai pamažu pereina į kitą etapą. Vien įrašyti pokalbį ir po jo pateikti santrauką jau per mažai. „Claude Meetings“ koncepcija rodo kitą kryptį: AI gali sekti susitikimo kontekstą ir rengti konkrečius rezultatus – nuo veiksmų sąrašo iki dokumento juodraščio.\n\nTai keičia ir lūkestį darbuotojams: gero susitikimo rezultatas turi būti ne tik pokalbis, bet ir aiškūs veiksmai. Žinoma, kartu išauga klausimai apie sutikimą, duomenų tvarkymą ir klaidingai užfiksuotus sprendimus.",
+      "take": "Išbandyčiau 30 dienų taisyklę: kiekvienas susitikimas baigiasi AI paruoštu sprendimų, atsakomybių ir terminų sąrašu, kurį patvirtina žmogus.",
+      "source": "https://claude.com/resources/articles/claude-meetings",
+      "color": "#7B5146",
+      "symbol": "✳"
+    },
+    {
+      "slug": "anthropic-ipo",
+      "category": "Verslas",
+      "kicker": "05 / BUSINESS",
+      "title": "„Anthropic“ IPO: AI lenktynėse žaidžia kapitalas.",
+      "summary": "Viešas debiutas privertė rinką įvertinti, kiek kainuos būsima AI infrastruktūra.",
+      "body": "AI platformų konkurencija matuojama ne vien modelių kokybe. Modeliams reikia duomenų centrų, skaičiavimo galios, klientų ir didžiulių ilgalaikių investicijų. „Anthropic“ žengimas į kapitalo rinką yra vienas iš ženklų, kad technologijų kova virsta ir finansavimo kova.\n\nDidelės pritrauktos sumos ar aukštas įvertinimas savaime nereiškia, kad verslo modelis jau įrodytas. Svarbu žiūrėti į paklausą, sąnaudas ir mokančių klientų išlaikymą.",
+      "take": "Kai rinką užvaldo nauja technologija, vertinkite ne tik produkto pažadą. Klauskite, kas už jį mokės ir kada atsiras tvari marža.",
+      "source": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+      "color": "#455A35",
+      "symbol": "$"
+    },
+    {
+      "slug": "gta-vi",
+      "category": "Marketingas",
+      "kicker": "06 / CULTURE",
+      "title": "GTA VI. Kai žaidimas tampa kultūriniu įvykiu.",
+      "summary": "Ilgas laukimas, bendruomenės dėmesys ir viena stipriausių pramogų industrijos franšizių.",
+      "body": "„Grand Theft Auto VI“ nėra tik naujas žaidimas. Tai kultūrinis prekės ženklas, aplink kurį daugelį metų gyveno lūkesčiai, memai ir pačių žaidėjų pasakojimai. Tokie produktai į rinką ateina jau turėdami dėmesio kapitalą.\n\nSvarbiausia čia ne rekordų skaičius, o tai, kiek bendruomenė pati kuria komunikaciją. Kiekviena detalė, gandas ar oficialus anonsas tampa nauju turiniu.",
+      "take": "Jei produkto laukia žmonės, reklamos užduotis keičiasi: ne sukurti susidomėjimą nuo nulio, o duoti bendruomenei priežasčių kalbėti tarpusavyje.",
+      "source": "https://apnews.com/article/15c69f76548ab5659bc3fe44a69756d8",
+      "color": "#7B3558",
+      "symbol": "VI"
+    },
+    {
+      "slug": "ikea-black-friday",
+      "category": "Marketingas",
+      "kicker": "07 / CAMPAIGN",
+      "title": "IKEA „Black Friday“: gerų pasiūlymų niekam nesakyk.",
+      "summary": "Kai reklama pasiskolina iš tikro gyvenimo žinomą elgesį: norą pasilikti gerą radinį sau.",
+      "body": "IKEA kampanijos idėja paprasta: radęs gerą pasiūlymą kartais nori jį pasilaikyti sau. Reklama šią mažą žmogišką silpnybę pavertė juokingu kūrybiniu principu.\n\nTai geras pavyzdys, kaip nebereikia kalbėti vien apie procentus ir kainas. Galima kalbėti apie emociją, kurią kaina sukelia. Kampanija atpažįstama, nes remiasi tikru elgesiu.",
+      "take": "Prieš kurdami dar vieną nuolaidų reklamą, suraskite ne produkto savybę, o žmogaus įprotį. Jis gali būti stipresnis už didžiulį procento ženklą.",
+      "source": "https://campaignbrief.com/ikea-makes-the-case-for-gatekeeping-in-new-anz-black-friday-campaign-via-havas-host/",
+      "color": "#2D4F7C",
+      "symbol": "%"
+    },
+    {
+      "slug": "mcdonalds-home-alone",
+      "category": "Marketingas",
+      "kicker": "08 / CULTURE",
+      "title": "„McDonald’s“ ir „Home Alone“: nostalgija parduoda.",
+      "summary": "Pažįstamas kalėdinis ritualas tampa nauju prekės ženklo pasakojimu.",
+      "body": "Kalėdinės reklamos dažnai konkuruoja dėl tos pačios emocijos. „McDonald’s“ pasirinko pažįstamą kultūrinį kodą – „Home Alone“ istoriją – ir iš jo sukūrė kampanijos kontekstą.\n\nNostalgija veikia tada, kai žmogus atpažįsta istoriją dar prieš pamatydamas visą reklamą. Ji trumpina kelią iki emocijos, tačiau vien žinomų veikėjų nepakanka: reikia ryšio su prekės ženklu ir konkrečiu produktu.",
+      "take": "Rasti autentišką auditorijos ritualą kartais vertingiau nei išrasti naują. Svarbu ne kopijuoti kultūrą, o tapti natūralia jos dalimi.",
+      "source": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
+      "color": "#924744",
+      "symbol": "★"
+    },
+    {
+      "slug": "tesla-cybercab",
+      "category": "Verslas",
+      "kicker": "09 / DEEP READ",
+      "title": "„Tesla Cybercab“: automobilis ar nauja paslaugų platforma?",
+      "summary": "Autonominis transportas gali pakeisti ne automobilių reklamą, o patį mobilumo verslo modelį.",
+      "body": "„Tesla“ robotaksių idėja patraukli ne vien kaip inžinerinis projektas. Jeigu autonominės kelionės taps saugios ir ekonomiškos, keisis transporto paslaugų sąnaudų struktūra, automobilių panaudojimas ir klientų lūkesčiai.\n\nŠiame sektoriuje jau dirba „Waymo“, o tokios platformos kaip „Uber“ ir „Bolt“ turi didelį klientų pasiekiamumą. Ateities konkurencija gali vykti ne dėl to, kas parduoda automobilį, o kas valdo kelionę, užsakymą, mokėjimą ir vartotojo santykį.\n\nVis dėlto demonstracijos ir ribotos programos nėra tas pats, kas plataus masto saugi paslauga. Teisiniai reikalavimai, draudimas, aptarnavimas ir avarinių situacijų sprendimas gali lemti realų augimo tempą.",
+      "take": "Man čia stipriausia verslo mintis – produkto pristatymas gali tapti nuolatiniu auditorijos kūrimo mechanizmu. Bet ilgalaikę vertę parodys ne pirmas robotaksis, o saugios ir pelningos kelionės kasdien.",
+      "source": "https://www.tesla.com/support/robotaxi/cybercab",
+      "color": "#6A5239",
+      "symbol": "→",
+      "bonus": true
+    }
+  ],
+  "playbooks": [
+    {
+      "slug": "nuolaidu-kampanija-be-procentu",
+      "title": "Parduok reakciją, ne nuolaidos procentą",
+      "summary": "IKEA kampanijos principas: žmonės prisimena situaciją, kurioje atpažįsta save.",
+      "principle": "Pasiūlymą įrėmink kaip realų žmogaus elgesį, o ne kaip standartinę kainos etiketę.",
+      "test": "Padaryk du reklamų variantus: A – produkto nuolaida; B – trumpa pažįstamo elgesio istorija. Vertink CTR ir kokybiškas užklausas.",
+      "story": "ikea-black-friday"
+    },
+    {
+      "slug": "nostalgija-ir-ritualai",
+      "title": "Reklamuok ritualą, kurį žmonės jau turi",
+      "summary": "„Home Alone“ pavyzdys: kultūrinė atmintis leidžia pradėti pokalbį nuo atpažįstamos emocijos.",
+      "principle": "Išsiaiškink, su kokiomis konkrečiomis akimirkomis auditorija sieja tavo kategoriją.",
+      "test": "Surink 10 klientų istorijų apie kasmetinį ritualą. Pasirink dažniausią ir išbandyk jį viename trumpame video.",
+      "story": "mcdonalds-home-alone"
+    }
+  ]
+}
