@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node site.mjs && node scripts/finalize.mjs && node scripts/check.mjs",
-    "test": "node scripts/check.mjs"
+    "build": "node site-v2.mjs && node scripts/finalize.mjs && node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "build:v1": "node site.mjs && node scripts/finalize.mjs && node scripts/check.mjs",
+    "build:v2": "node site-v2.mjs && node scripts/finalize.mjs && node scripts/check.mjs"
   }
 }
