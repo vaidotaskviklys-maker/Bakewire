@@ -10,6 +10,18 @@
 - Autentiška BAKEWIRE vizualinė sistema ir automatiškai sugeneruojamos SVG iliustracijos.
 - Mobilus dizainas, RSS, Open Graph, canonical nuorodos, sitemap ir 404.
 
+## Dizainas (2026-11-23 patvirtintas V2)
+
+BAKEWIRE naudoja originalų redakcinį V2 dizainą: didelė tipografija, asimetriškas istorijų tinklelis, „Baking News“ juosta, išskirta „SO WHAT?“ dalis, „Ideas & Playbook“ kortelės ir atskiri straipsnių puslapiai.
+
+- `site-v2.mjs` – aktyvus visos statinės svetainės generatorius.
+- `design/v2.css` – patvirtintos krypties tipografija ir responsive išdėstymas.
+- `site.mjs` – ankstesnė V1 versija, palikta kaip atsarginis variantas.
+- `content/editorial.json` – visos istorijos, šaltiniai, „SO WHAT?“ ir „Playbook“.
+- `npm run build:v1` – tik jei reikia grįžti prie ankstesnio dizaino.
+
+**Vizualai:** šiuo metu GitHub generatorius pateikia originalias tipografines SVG iliustracijas. Patvirtinto V2 demonstracinio prototipo JPG nuotraukų rinkinys dar neperkeltas į GitHub. Prieš viešą pristatymą reikia prijungti peržiūrėtas nuotraukas ir patikrinti jų panaudojimo teises.
+
 ## Kaip paleisti
 
 Šiame projekte nereikia npm bibliotekų – veikia su Node.js 20+.
