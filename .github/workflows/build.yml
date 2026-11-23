@@ -21,6 +21,7 @@ jobs:
       - name: Check JavaScript
         run: |
           node --check site.mjs
+          node --check site-v2.mjs
           node --check scripts/check.mjs
           node --check scripts/finalize.mjs
       - name: Build and validate
