@@ -84,7 +84,18 @@
       "take": "Jei produkto laukia žmonės, reklamos užduotis keičiasi: ne sukurti susidomėjimą nuo nulio, o duoti bendruomenei priežasčių kalbėti tarpusavyje.",
       "source": "https://apnews.com/article/15c69f76548ab5659bc3fe44a69756d8",
       "color": "#7B3558",
-      "symbol": "VI"
+      "symbol": "VI",
+      "video": {
+        "provider": "youtube",
+        "id": "tJbzMqJGH4k",
+        "credit": "Rockstar Games – Grand Theft Auto VI: An Extended Look",
+        "link": "https://www.youtube.com/watch?v=tJbzMqJGH4k"
+      },
+      "visual": {
+        "kind": "official-video-thumbnail",
+        "src": "https://i.ytimg.com/vi/tJbzMqJGH4k/hqdefault.jpg",
+        "attribution": "Rockstar Games – Grand Theft Auto VI: An Extended Look"
+      }
     },
     {
       "slug": "ikea-black-friday",
@@ -121,7 +132,18 @@
       "source": "https://www.tesla.com/support/robotaxi/cybercab",
       "color": "#6A5239",
       "symbol": "→",
-      "bonus": true
+      "bonus": true,
+      "video": {
+        "provider": "youtube",
+        "id": "grdt05okn3Q",
+        "credit": "Tesla – The Future Has Arrived | Cybercab",
+        "link": "https://www.youtube.com/watch?v=grdt05okn3Q"
+      },
+      "visual": {
+        "kind": "official-video-thumbnail",
+        "src": "https://i.ytimg.com/vi/grdt05okn3Q/hqdefault.jpg",
+        "attribution": "Tesla – The Future Has Arrived | Cybercab"
+      }
     }
   ],
   "playbooks": [
