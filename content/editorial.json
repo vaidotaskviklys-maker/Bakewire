@@ -24,7 +24,12 @@
       "take": "Verslo tęstinumo planas turi būti išbandytas praktiškai. Kada paskutinį kartą tikrinote, kaip jūsų komanda dirbtų be pagrindinio el. pašto ir „Teams“?",
       "source": "https://www.investing.com/news/stock-market-news/faxes-phones-and-bluetooth-microsoft-outage-forces-businesses-find-fixes-5026009",
       "color": "#31516B",
-      "symbol": "503"
+      "symbol": "503",
+      "mediaSource": {
+        "publisher": "Microsoft",
+        "source": "https://www.microsoft.com/en-us/microsoft-365",
+        "note": "Oficiali Microsoft 365 produkto medžiaga; ne sutrikimo fotografija"
+      }
     },
     {
       "slug": "nvidia-vadovybes-krize",
@@ -36,7 +41,12 @@
       "take": "Stiprus asmeninis prekės ženklas nėra tas pats, kas stipri valdymo sistema. Ką apie jūsų įmonę žmonės žinotų, jeigu jos lyderis rytoj pasitrauktų?",
       "source": "https://www.reuters.com/legal/transactional/silicon-valley-leaders-back-call-jensen-huangs-return-nvidia-2026-11-16/",
       "color": "#315847",
-      "symbol": "AI"
+      "symbol": "AI",
+      "mediaSource": {
+        "publisher": "NVIDIA",
+        "source": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+        "note": "Oficialus NVIDIA Newsroom pranešimas"
+      }
     },
     {
       "slug": "spacex-starship",
@@ -48,7 +58,12 @@
       "take": "Produkto demonstracija gali tapti stipriausia reklama, kai joje aiškiai matomas pažangos įrodymas. Ką jūsų klientas galėtų pamatyti pats, o ne tik perskaityti reklamoje?",
       "source": "https://www.spacex.com/launches/starship-flight-15/",
       "color": "#41434A",
-      "symbol": "↗"
+      "symbol": "↗",
+      "mediaSource": {
+        "publisher": "SpaceX",
+        "source": "https://www.spacex.com/launches/starship-flight-15",
+        "note": "Oficiali Starship Flight 15 misijos medžiaga"
+      }
     },
     {
       "slug": "claude-meetings",
@@ -60,7 +75,12 @@
       "take": "Išbandyčiau 30 dienų taisyklę: kiekvienas susitikimas baigiasi AI paruoštu sprendimų, atsakomybių ir terminų sąrašu, kurį patvirtina žmogus.",
       "source": "https://claude.com/resources/articles/claude-meetings",
       "color": "#7B5146",
-      "symbol": "✳"
+      "symbol": "✳",
+      "mediaSource": {
+        "publisher": "Anthropic / Claude",
+        "source": "https://claude.com/resources/articles/claude-meetings",
+        "note": "Oficialūs Claude Meetings produkto vaizdai"
+      }
     },
     {
       "slug": "anthropic-ipo",
@@ -72,7 +92,12 @@
       "take": "Kai rinką užvaldo nauja technologija, vertinkite ne tik produkto pažadą. Klauskite, kas už jį mokės ir kada atsiras tvari marža.",
       "source": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
       "color": "#455A35",
-      "symbol": "$"
+      "symbol": "$",
+      "mediaSource": {
+        "publisher": "Anthropic",
+        "source": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "note": "Oficiali Anthropic IPO pranešimo medžiaga"
+      }
     },
     {
       "slug": "gta-vi",
@@ -95,6 +120,11 @@
         "kind": "official-video-thumbnail",
         "src": "https://i.ytimg.com/vi/tJbzMqJGH4k/hqdefault.jpg",
         "attribution": "Rockstar Games – Grand Theft Auto VI: An Extended Look"
+      },
+      "mediaSource": {
+        "publisher": "Rockstar Games",
+        "source": "https://www.rockstargames.com/VI/media",
+        "note": "Oficiali Rockstar Games medžiaga"
       }
     },
     {
@@ -107,7 +137,12 @@
       "take": "Prieš kurdami dar vieną nuolaidų reklamą, suraskite ne produkto savybę, o žmogaus įprotį. Jis gali būti stipresnis už didžiulį procento ženklą.",
       "source": "https://campaignbrief.com/ikea-makes-the-case-for-gatekeeping-in-new-anz-black-friday-campaign-via-havas-host/",
       "color": "#2D4F7C",
-      "symbol": "%"
+      "symbol": "%",
+      "mediaSource": {
+        "publisher": "IKEA Australia",
+        "source": "https://www.ikea.com/au/en/newsroom/corporate-news/too-good-to-share-ikea-australia-and-new-zealand-invites-customers-to-gatekeep-their-black-friday-deal-pub4aa91590/",
+        "note": "Originali IKEA / Havas Host kampanija"
+      }
     },
     {
       "slug": "mcdonalds-home-alone",
@@ -119,7 +154,12 @@
       "take": "Rasti autentišką auditorijos ritualą kartais vertingiau nei išrasti naują. Svarbu ne kopijuoti kultūrą, o tapti natūralia jos dalimi.",
       "source": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
       "color": "#924744",
-      "symbol": "★"
+      "symbol": "★",
+      "mediaSource": {
+        "publisher": "McDonald’s",
+        "source": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
+        "note": "Oficialus McDonald’s pranešimas ir kampanijos medžiaga"
+      }
     },
     {
       "slug": "tesla-cybercab",
@@ -143,6 +183,11 @@
         "kind": "official-video-thumbnail",
         "src": "https://i.ytimg.com/vi/grdt05okn3Q/hqdefault.jpg",
         "attribution": "Tesla – The Future Has Arrived | Cybercab"
+      },
+      "mediaSource": {
+        "publisher": "Tesla",
+        "source": "https://www.tesla.com/tesla-gallery",
+        "note": "Tesla spaudos galerija, redakcinio naudojimo sąlygos"
       }
     }
   ],
