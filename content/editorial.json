@@ -27,9 +27,9 @@
       "symbol": "503",
       "mediaSource": {
         "publisher": "Microsoft",
-        "source": "https://news.microsoft.com/presskits/microsoft365/",
-        "note": "Iliustracinė oficialaus Microsoft 365 presskit nuotrauka; nesusijusi su konkretaus sutrikimo eiga",
-        "preferredImage": "https://msftstories.thesourcemediaassets.com/2022/11/Resources-image-928-700x400.jpg"
+        "source": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+        "preferredImage": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/VerticalAccordion-3-3-656x504?fit=constrain&fmt=png-alpha&hei=756&wid=984",
+        "note": "Oficiali Outlook pašto sąsajos iliustracija, ne sutrikimo dokumentinis kadras."
       }
     },
     {
@@ -45,9 +45,9 @@
       "symbol": "AI",
       "mediaSource": {
         "publisher": "NVIDIA",
-        "source": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-        "note": "NVIDIA GTC Berlin 2026 archyvinė Jenseno Huango nuotrauka; ne nagrinėjamo įvykio kadras",
-        "preferredImage": "https://blogs.nvidia.com/wp-content/uploads/2026/10/jhh-keynote-kv-1920x1080-1.jpg"
+        "source": "https://nvidianews.nvidia.com/bios/jensen-huang",
+        "preferredImage": "https://iprsoftwaremedia.com/219/files/202604/f0e9efa72f909f3f08cdd0a48ff92880/69e6b9293d633260eec67804_jensen-1920x1920/jensen-1920x1920_6a7e6ad5-c215-4503-b70d-fe6e5e9de205-prv.jpg?v=6a7e6ad5-c215-4503-b70d-fe6e5e9de205",
+        "note": "Oficialus Jenseno Huango portretas iš NVIDIA spaudos centro."
       }
     },
     {
@@ -62,10 +62,10 @@
       "color": "#41434A",
       "symbol": "↗",
       "mediaSource": {
-        "publisher": "SpaceX",
-        "source": "https://www.flickr.com/photos/spacex/52807866010",
-        "note": "Oficiali SpaceX archyvinė Starship nuotrauka, ne 15-ojo skrydžio dokumentinė fotografija",
-        "preferredImage": "https://live.staticflickr.com/65535/52807866010_0a97ecd727_b.jpg"
+        "publisher": "Steve Jurvetson / CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Starship_Booster_Return_on_Final_Approach_(54063904149).jpg",
+        "preferredImage": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg",
+        "note": "2024-10-13 penktojo bandymo archyvinis grįžtančios raketos kadras. CC BY 2.0: https://creativecommons.org/licenses/by/2.0/."
       }
     },
     {
