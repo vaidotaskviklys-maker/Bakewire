@@ -28,7 +28,8 @@
       "mediaSource": {
         "publisher": "Microsoft",
         "source": "https://news.microsoft.com/presskits/microsoft365/",
-        "note": "Microsoft 365 oficialūs presskit vaizdai (produkto nuotrauka, ne konkretaus sutrikimo scena)"
+        "note": "Iliustracinė oficialaus Microsoft 365 presskit nuotrauka; nesusijusi su konkretaus sutrikimo eiga",
+        "preferredImage": "https://msftstories.thesourcemediaassets.com/2022/11/Resources-image-928-700x400.jpg"
       }
     },
     {
@@ -44,8 +45,8 @@
       "symbol": "AI",
       "mediaSource": {
         "publisher": "NVIDIA",
-        "source": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-        "note": "Oficialus NVIDIA Newsroom pranešimas"
+        "source": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
+        "note": "NVIDIA GTC Berlin 2026 archyvinė Jenseno Huango nuotrauka; ne nagrinėjamo įvykio kadras"
       }
     },
     {
@@ -61,8 +62,8 @@
       "symbol": "↗",
       "mediaSource": {
         "publisher": "SpaceX",
-        "source": "https://www.spacex.com/launches/starship-flight-15",
-        "note": "Oficiali Starship Flight 15 misijos medžiaga"
+        "source": "https://www.flickr.com/photos/spacex/52807866010",
+        "note": "Oficiali SpaceX archyvinė Starship nuotrauka, ne 15-ojo skrydžio dokumentinė fotografija"
       }
     },
     {
@@ -158,7 +159,8 @@
       "mediaSource": {
         "publisher": "McDonald’s",
         "source": "https://www.mcdonalds.com/gb/en-gb/latest/festive-food.html",
-        "note": "Oficiali McDonald’s UK Home Alone kampanijos medžiaga"
+        "note": "McDonald’s oficialios Home Alone kampanijos produkto vaizdas",
+        "preferredImage": "https://s7d1.scene7.com/is/image/mcdonalds/category-home-alone-171126:menu-category?fmt=png-alpha&resmode=sharp2"
       }
     },
     {
