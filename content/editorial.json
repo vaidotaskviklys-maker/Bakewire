@@ -73,7 +73,7 @@
       "kicker": "04 / AI",
       "title": "AI ateina į susirinkimą. Ir pradeda dirbti.",
       "summary": "Nuo transkripcijų pereinama prie užduočių ir dokumentų rengimo realiu laiku.",
-      "body": "Susitikimų AI įrankiai pamažu pereina į kitą etapą. Vien įrašyti pokalbį ir po jo pateikti santrauką jau per mažai. „Claude Meetings“ koncepcija rodo kitą kryptį: AI gali sekti susitikimo kontekstą ir rengti konkrečius rezultatus – nuo veiksmų sąrašo iki dokumento juodraščio.\n\nTai keičia ir lūkestį darbuotojams: gero susitikimo rezultatas turi būti ne tik pokalbis, bet ir aiškūs veiksmai. Žinoma, kartu išauga klausimai apie sutikimą, duomenų tvarkymą ir klaidingai užfiksuotus sprendimus.",
+      "body": "Susitikimų AI įrankiai pamažu pereina į kitą etapą. Vien įrašyti pokalbį ir po jo pateikti santrauką jau per mažai. „Anthropic“ pradėjo diegti bandomąją „Claude Meetings“ versiją „Team“ ir „Enterprise“ klientams. Prisijungęs prie „Google Meet“ skambučio, įrankis gali rengti veiksmų sąrašą ir dokumentų juodraščius dar vykstant pokalbiui.\n\nTai keičia ir lūkestį darbuotojams: gero susitikimo rezultatas turi būti ne tik pokalbis, bet ir aiškūs veiksmai. Žinoma, kartu išauga klausimai apie sutikimą, duomenų tvarkymą ir klaidingai užfiksuotus sprendimus.",
       "take": "Išbandyčiau 30 dienų taisyklę: kiekvienas susitikimas baigiasi AI paruoštu sprendimų, atsakomybių ir terminų sąrašu, kurį patvirtina žmogus.",
       "source": "https://claude.com/resources/articles/claude-meetings",
       "color": "#7B5146",
@@ -93,7 +93,7 @@
       "summary": "Viešas debiutas privertė rinką įvertinti, kiek kainuos būsima AI infrastruktūra.",
       "body": "AI platformų konkurencija matuojama ne vien modelių kokybe. Modeliams reikia duomenų centrų, skaičiavimo galios, klientų ir didžiulių ilgalaikių investicijų. „Anthropic“ žengimas į kapitalo rinką yra vienas iš ženklų, kad technologijų kova virsta ir finansavimo kova.\n\nDidelės pritrauktos sumos ar aukštas įvertinimas savaime nereiškia, kad verslo modelis jau įrodytas. Svarbu žiūrėti į paklausą, sąnaudas ir mokančių klientų išlaikymą.",
       "take": "Kai rinką užvaldo nauja technologija, vertinkite ne tik produkto pažadą. Klauskite, kas už jį mokės ir kada atsiras tvari marža.",
-      "source": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+      "source": "https://www.anthropic.com/news/ipo-close",
       "color": "#455A35",
       "symbol": "$",
       "mediaSource": {
