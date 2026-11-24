@@ -63,8 +63,7 @@
       "symbol": "↗",
       "mediaSource": {
         "publisher": "Steve Jurvetson / CC BY 2.0",
-        "source": "https://commons.wikimedia.org/wiki/File:Starship_Booster_Return_on_Final_Approach_(54063904149).jpg",
-        "preferredImage": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg",
+        "source": "https://www.flickr.com/photos/jurvetson/54063904149",
         "note": "2024-10-13 penktojo bandymo archyvinis grįžtančios raketos kadras. CC BY 2.0: https://creativecommons.org/licenses/by/2.0/."
       }
     },
@@ -83,7 +82,7 @@
         "publisher": "Anthropic / Claude",
         "source": "https://claude.com/resources/articles/claude-meetings",
         "note": "Oficialūs Claude Meetings produkto vaizdai",
-        "preferredImage": "https://claude.com/resources/articles/claude-meetings/opengraph-image/og"
+        "imageAlt": "screenshot.*meeting|meeting.*participant"
       }
     },
     {
@@ -99,9 +98,9 @@
       "symbol": "$",
       "mediaSource": {
         "publisher": "Anthropic",
-        "source": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "note": "Oficiali Anthropic IPO pranešimo medžiaga",
-        "preferredImage": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
+        "source": "https://www.anthropic.com/company/leadership",
+        "note": "Oficialus Anthropic vadovo Dario Amodei portretas; ne IPO dienos kadras.",
+        "imageAlt": "Portrait of Dario Amodei"
       }
     },
     {
