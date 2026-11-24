@@ -6,15 +6,37 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
+  seed-media:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Store editorial images once
+        run: |
+          if [ ! -d editorial-media ]; then
+            REFRESH_MEDIA=1 npm run build
+            git config user.name 'bakewire-media[bot]'
+            git config user.email 'bakewire-media[bot]@users.noreply.github.com'
+            git add editorial-media
+            git commit -m 'Store verified editorial images locally'
+            git push origin HEAD:main
+          fi
   build:
+    needs: seed-media
+    if: always() && (needs.seed-media.result == 'success' || needs.seed-media.result == 'skipped')
     runs-on: ubuntu-latest
     strategy:
       matrix:
         publication_ready: ['false', 'true']
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.sha || 'main' }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
