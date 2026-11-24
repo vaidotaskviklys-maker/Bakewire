@@ -50,5 +50,9 @@ for(const s of source.posts){
 for(const p of source.playbooks){
   if(!source.posts.some(s=>s.slug===p.story))bad('Missing related story: '+p.slug);
 }
+const deep=fs.readFileSync(path.join(root,"istorijos/tesla-cybercab/index.html"),"utf8");
+if((deep.match(/class="deep-chart"/g)||[]).length!==2)bad("Missing Cybercab charts");
+for(const id of ["front","interior","side"]){const p=path.join(root,"media","cybercab-"+id+".jpg");if(!fs.existsSync(p)||fs.statSync(p).size<4000)bad("Missing Cybercab photo "+id);}
+if(!deep.includes("CC BY 2.0")||!deep.includes("deep-gallery"))bad("Missing gallery attribution");
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}
 console.log('Validated '+html.length+' HTML pages, local assets/links, metadata, editorial structure and publication guard.');
