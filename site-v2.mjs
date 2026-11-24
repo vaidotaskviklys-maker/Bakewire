@@ -6,7 +6,7 @@ import path from "node:path";
   const pub=process.env.PUBLICATION_READY==="true";
   const origin=(process.env.SITE_ORIGIN||"https://bakewire.com").replace(/\/$/,"");
   const analyticsToken=process.env.CLOUDFLARE_WEB_ANALYTICS_TOKEN||"";
-  const signupUrl=process.env.NEWSLETTER_SIGNUP_URL||"";
+  const signupUrl=process.env.NEWSLETTER_SIGNUP_URL||"https://preview.mailerlite.io/forms/1466345/205015085357204846/share";
   const esc=x=>String(x??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
   const storyUrl=p=>`/istorijos/${p.slug}/`,ideaUrl=p=>`/playbook/${p.slug}/`;
   const make=(target,body)=>{const p=path.join(dist,target);fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,body,"utf8")};
