@@ -46,7 +46,8 @@
       "mediaSource": {
         "publisher": "NVIDIA",
         "source": "https://blogs.nvidia.com/blog/gtc-berlin-2026-keynote/",
-        "note": "NVIDIA GTC Berlin 2026 archyvinė Jenseno Huango nuotrauka; ne nagrinėjamo įvykio kadras"
+        "note": "NVIDIA GTC Berlin 2026 archyvinė Jenseno Huango nuotrauka; ne nagrinėjamo įvykio kadras",
+        "preferredImage": "https://blogs.nvidia.com/wp-content/uploads/2026/10/jhh-keynote-kv-1920x1080-1.jpg"
       }
     },
     {
@@ -63,7 +64,8 @@
       "mediaSource": {
         "publisher": "SpaceX",
         "source": "https://www.flickr.com/photos/spacex/52807866010",
-        "note": "Oficiali SpaceX archyvinė Starship nuotrauka, ne 15-ojo skrydžio dokumentinė fotografija"
+        "note": "Oficiali SpaceX archyvinė Starship nuotrauka, ne 15-ojo skrydžio dokumentinė fotografija",
+        "preferredImage": "https://live.staticflickr.com/65535/52807866010_0a97ecd727_b.jpg"
       }
     },
     {
@@ -80,7 +82,8 @@
       "mediaSource": {
         "publisher": "Anthropic / Claude",
         "source": "https://claude.com/resources/articles/claude-meetings",
-        "note": "Oficialūs Claude Meetings produkto vaizdai"
+        "note": "Oficialūs Claude Meetings produkto vaizdai",
+        "preferredImage": "https://claude.com/resources/articles/claude-meetings/opengraph-image/og"
       }
     },
     {
@@ -97,7 +100,8 @@
       "mediaSource": {
         "publisher": "Anthropic",
         "source": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "note": "Oficiali Anthropic IPO pranešimo medžiaga"
+        "note": "Oficiali Anthropic IPO pranešimo medžiaga",
+        "preferredImage": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg"
       }
     },
     {
@@ -125,7 +129,8 @@
       "mediaSource": {
         "publisher": "Rockstar Games",
         "source": "https://www.rockstargames.com/VI/media",
-        "note": "Oficiali Rockstar Games medžiaga"
+        "note": "Oficiali Rockstar Games medžiaga",
+        "preferredImage": "https://www.rockstargames.com/VI/_next/static/media/meta.0t8ty~nlmxq2s.jpg?6wC5t2qhtJZtllO-YhLcO"
       }
     },
     {
@@ -142,7 +147,8 @@
       "mediaSource": {
         "publisher": "IKEA Australia",
         "source": "https://www.ikea.com/au/en/newsroom/corporate-news/too-good-to-share-ikea-australia-and-new-zealand-invites-customers-to-gatekeep-their-black-friday-deal-pub4aa91590/",
-        "note": "Originali IKEA / Havas Host kampanija"
+        "note": "Originali IKEA / Havas Host kampanija",
+        "preferredImage": "https://www.ikea.com/images/ikea-black-friday-television-ad-2d86745b1071cc626b44fa90b434bca5.png?f=xl"
       }
     },
     {
@@ -189,7 +195,8 @@
       "mediaSource": {
         "publisher": "Tesla",
         "source": "https://www.tesla.com/tesla-gallery",
-        "note": "Oficialaus Tesla YouTube vaizdo įrašo miniatiūra; Tesla press gallery siūlo redakcinius Cybercab spaudos kadrus"
+        "note": "Oficialaus Tesla Cybercab vaizdo įrašo miniatiūra; ne nepriklausoma dokumentinė fotografija.",
+        "preferredImage": "https://i.ytimg.com/vi/grdt05okn3Q/hqdefault.jpg"
       }
     }
   ],
