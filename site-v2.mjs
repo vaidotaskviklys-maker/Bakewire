@@ -1,3 +1,4 @@
+import {createHash} from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 (function buildBakewireV2(){
@@ -11,7 +12,10 @@ import path from "node:path";
   const storyUrl=p=>`/istorijos/${p.slug}/`,ideaUrl=p=>`/playbook/${p.slug}/`;
   const make=(target,body)=>{const p=path.join(dist,target);fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,body,"utf8")};
   fs.rmSync(dist,{recursive:true,force:true});fs.mkdirSync(dist,{recursive:true});
-  make("assets/styles.css",fs.readFileSync("design/v2.css","utf8"));
+  const revision=bytes=>createHash("sha256").update(bytes).digest("hex").slice(0,12);
+  const styles=fs.readFileSync("design/v2.css","utf8");
+  const styleVersion=revision(styles);
+  make("assets/styles.css",styles);
   const client=String.raw`document.addEventListener('DOMContentLoaded',()=>{
     const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('.navleft');
     menu?.addEventListener('click',()=>{const opened=nav?.classList.toggle('open');menu.setAttribute('aria-expanded',String(!!opened));});
@@ -61,7 +65,7 @@ import path from "node:path";
     const schema={"@context":"https://schema.org","@type":type==="article"?"Article":canonical==="/"?"WebSite":"CollectionPage",name:canonical==="/"?"BAKEWIRE":title,description,inLanguage:"lt",url:origin+canonical,...(type==="article"?{headline:title,datePublished:date,articleSection:category,author:{"@type":"Organization",name:"BAKEWIRE"},publisher:{"@type":"Organization",name:"BAKEWIRE"},mainEntityOfPage:origin+canonical,image:absoluteImage}:{})};
     const pageTitle=canonical==="/"?"BAKEWIRE | "+title:title+" | BAKEWIRE";
     const jsonld=JSON.stringify(schema).replace(/</g,"\\u003c");
-    const meta=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(pageTitle)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#f4f0e8">${pub?"":'<meta name="robots" content="noindex,nofollow,noarchive">'}<meta property="og:type" content="${type}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${esc(absoluteImage)}">${canonical?`<link rel="canonical" href="${esc(origin+canonical)}">`:""}<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/styles.css"><script defer src="/assets/client.js"></script>`;
+    const meta=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(pageTitle)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#f4f0e8">${pub?"":'<meta name="robots" content="noindex,nofollow,noarchive">'}<meta property="og:type" content="${type}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:image" content="${esc(absoluteImage)}">${canonical?`<link rel="canonical" href="${esc(origin+canonical)}">`:""}<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/styles.css?v=${styleVersion}"><script defer src="/assets/client.js"></script>`;
     return `<!doctype html><html lang="lt"><head>${meta}<script type="application/ld+json">${jsonld}</script><meta name="twitter:card" content="summary_large_image"></head><body><a class="skip" href="#main">Pereiti prie turinio</a><div class="topline"><div class="shell"><span>MARKETINGAS / TECHNOLOGIJOS / AI / VERSLAS</span><span class="right">FRESH NEWS. <b>SHARP TAKES.</b></span></div></div><header><div class="shell masthead"><div class="mastmeta"><span>NEPRIKLAUSOMAS SKAITMENINIS ŽURNALAS</span><span>BAKING NEWS / 2026</span></div><div class="logorow"><a href="/" class="logo">BAKEWIRE<span class="dot">.</span></a><span class="stamp">FRESHLY BAKED</span></div><div class="subrow"><span class="tagline">Fresh news. Sharp takes.</span><span class="edition">MARKETING / TECH / BUSINESS</span></div></div><div class="navbar"><div class="shell navinner"><nav aria-label="Pagrindinis meniu" class="navleft"><a href="/">Naujienos</a><a href="/numeriai/">Numeriai</a><a href="/bonus/">BONUS</a><a href="/playbook/">Ideas & Playbook</a><a href="/#apie">Apie</a></nav><div class="navright"><a class="signal" href="/rss.xml"><span class="live-dot"></span>RSS</a><button type="button" class="menu-toggle" aria-expanded="false" aria-label="Atidaryti meniu">MENU ☰</button></div></div></div></header>${pub?"":'<div class="preview-banner"><div class="shell">Bandomasis leidinys. Redakciniai tekstai ir šaltiniai dar tikrinami prieš viešą pristatymą.</div></div>'}<main id="main">${body}${newsletter()}</main><footer><div class="shell"><div class="footgrid"><div><a href="/" class="footlogo">BAKEWIRE<span>.</span></a><p>Šviežios istorijos. Savos įžvalgos.<br>Kas įvyko? Kodėl tai svarbu? Kas iš to?</p></div><nav class="footlinks"><a href="/">Naujienos</a><a href="/numeriai/">Archyvas</a><a href="/playbook/">Playbook</a><a href="/rss.xml">RSS</a><a href="/#prenumerata">Prenumerata</a><a href="/temos/marketingas/">Marketingas</a><a href="/temos/technologijos/">Technologijos</a><a href="/temos/ai/">AI</a><a href="/temos/verslas/">Verslas</a></nav></div><p class="footfine">© ${new Date().getUTCFullYear()} BAKEWIRE. Autentiškų nuotraukų ir vaizdo įrašų šaltiniai nurodyti straipsniuose. Archyviniai vaizdai pažymėti. Visos teisės priklauso jų savininkams.</p></div></footer>${analyticsToken&&/^[a-zA-Z0-9_-]+$/.test(analyticsToken)?`<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="${esc(JSON.stringify({token:analyticsToken}))}"></script>`:""}</body></html>`;
   }
   function newsletter(){return `<section class="shell newsletter-section" id="prenumerata"><h2>Šviežios naujienos į tavo paštą.</h2><p>Savaitinė marketingo, AI, technologijų ir verslo apžvalga. Prenumeratos galima atsisakyti bet kada.</p>${signupUrl&&/^https:\/\//.test(signupUrl)?`<a class="read" href="${esc(signupUrl)}" rel="noopener">Prenumeruoti naujienlaiškį ↗</a>`:`<p>El. pašto prenumerata dar ruošiama. <a class="read" href="https://www.linkedin.com/newsletters/marketingo-naujienos-7510631068144963584/">Prenumeruoti LinkedIn leidinį ↗</a></p>`}</section>`;}
@@ -78,7 +82,14 @@ import path from "node:path";
   const archivedMedia=JSON.parse(fs.readFileSync("content/archive-media.json","utf8"));
   const archiveMediaDir=path.resolve("archive-media");
   if(fs.existsSync(archiveMediaDir))fs.cpSync(archiveMediaDir,path.join(dist,"archive-media"),{recursive:true});
-  const archiveImage=(key,alt)=>{const dir=path.join(dist,"archive-media");const file=fs.existsSync(dir)?fs.readdirSync(dir).find(n=>n===key+".webp"):null;return file?`<img loading="lazy" src="/archive-media/${file}" alt="${esc(alt)}">`:""};
+  const archiveImageVersions=new Map();
+  function archiveImage(key,alt){
+    const file=key+".webp";
+    const target=path.join(dist,"archive-media",file);
+    if(!fs.existsSync(target))return "";
+    if(!archiveImageVersions.has(key))archiveImageVersions.set(key,revision(fs.readFileSync(target)));
+    return `<img loading="lazy" src="/archive-media/${file}?v=${archiveImageVersions.get(key)}" alt="${esc(alt)}">`;
+  }
   function archiveDescription(p){return (p.seoDescription||p.paragraphs.filter(t=>t.length>100).find(t=>!t.startsWith("BONUSAS"))||p.title).slice(0,157).replace(/\s+\S*$/,"").trim()+"."}
   function archiveSummary(p){
     const title=p.title.toLocaleLowerCase("lt");
