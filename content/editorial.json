@@ -27,8 +27,8 @@
       "symbol": "503",
       "mediaSource": {
         "publisher": "Microsoft",
-        "source": "https://www.microsoft.com/en-us/microsoft-365",
-        "note": "Oficiali Microsoft 365 produkto medžiaga; ne sutrikimo fotografija"
+        "source": "https://news.microsoft.com/presskits/microsoft365/",
+        "note": "Microsoft 365 oficialūs presskit vaizdai (produkto nuotrauka, ne konkretaus sutrikimo scena)"
       }
     },
     {
@@ -157,8 +157,8 @@
       "symbol": "★",
       "mediaSource": {
         "publisher": "McDonald’s",
-        "source": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-home-alone-meal.html",
-        "note": "Oficialus McDonald’s pranešimas ir kampanijos medžiaga"
+        "source": "https://www.mcdonalds.com/gb/en-gb/latest/festive-food.html",
+        "note": "Oficiali McDonald’s UK Home Alone kampanijos medžiaga"
       }
     },
     {
@@ -187,7 +187,7 @@
       "mediaSource": {
         "publisher": "Tesla",
         "source": "https://www.tesla.com/tesla-gallery",
-        "note": "Tesla spaudos galerija, redakcinio naudojimo sąlygos"
+        "note": "Oficialaus Tesla YouTube vaizdo įrašo miniatiūra; Tesla press gallery siūlo redakcinius Cybercab spaudos kadrus"
       }
     }
   ],
