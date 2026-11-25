@@ -55,6 +55,9 @@ import path from "node:path";
   }
   const videoSection=p=>p.video?.provider==="youtube"&&/^[A-Za-z0-9_-]{11}$/.test(p.video.id)?`<section class="video-section" id="vaizdo-irasas"><span class="tiny orange">OFICIALUS VIDEO</span><h2>Pažiūrėk originalų įrašą</h2><div class="video-frame"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/${p.video.id}" title="${esc(p.video.credit)}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><p class="video-credit">${esc(p.video.credit)} · <a href="${esc(p.video.link)}" target="_blank" rel="noopener noreferrer">Žiūrėti originalų įrašą ↗</a></p></section>`:"";
   function storyVideo(p) {
+    if (p.slug === "gta-vi") {
+      return `<section class="video-section" id="vaizdo-irasas"><h2>„Rockstar Games“ vaizdo įrašas</h2><p class="video-credit">Dėl amžiaus apribojimo klipas rodomas „YouTube“. <a href="${esc(p.video.link)}" target="_blank" rel="noopener noreferrer">Žiūrėti „YouTube“ ↗</a></p></section>`;
+    }
     if (p.slug === "mcdonalds-home-alone") {
       const embed = "https://lbbonline.com/work/187517/embed?no_credits=true";
       return `<section class="video-section" id="vaizdo-irasas"><h2>„McDonald’s“ kampanijos vaizdo įrašas</h2><div class="video-frame"><iframe loading="lazy" src="${embed}" title="McDonald’s – Home Alone" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><p class="video-credit"><a href="${embed}" target="_blank" rel="noopener noreferrer">Atidaryti klipą atskirame lange ↗</a></p></section>`;
