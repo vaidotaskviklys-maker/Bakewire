@@ -94,3 +94,10 @@ footer{background:#151818;color:#f4f0e8;padding:48px 0 25px}.footgrid{display:fl
   gap: 0.75rem 1.25rem;
   margin-top: 1rem;
 }
+
+.prose .insight{margin:32px 0;padding:clamp(18px,4vw,30px);background:#f7dfcc;border:0;border-inline-start:5px solid #a63424;position:static;color:#211914}
+.prose .insight h2{margin:0 0 10px;font:800 .85rem/1.4 system-ui,sans-serif;letter-spacing:.12em;color:#84281e}
+.prose .insight p{margin:0;font:inherit}
+
+.articlebody-inline{grid-template-columns:minmax(100px,.45fr) minmax(0,1.6fr)}
+@media(max-width:850px){.articlebody-inline{grid-template-columns:minmax(0,1fr)}}
