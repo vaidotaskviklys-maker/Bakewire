@@ -108,3 +108,8 @@ footer{background:#151818;color:#f4f0e8;padding:48px 0 25px}.footgrid{display:fl
 .newsletter-issue .table { overflow-x: auto; }
 .newsletter-issue table { border-collapse: collapse; width: 100%; }
 .newsletter-issue th, .newsletter-issue td { border-bottom: 1px solid #ab9d90; padding: 8px; text-align: left; }
+
+.newsletter-issue .newsletter-photo { margin: 20px 0 28px; }
+.newsletter-issue .newsletter-photo img { display: block; width: 100%; height: auto; }
+.newsletter-issue .newsletter-photo figcaption { margin-top: 8px; font-size: .875rem; }
+.newsletter-issue .video-frame { margin: 20px 0 12px; }
