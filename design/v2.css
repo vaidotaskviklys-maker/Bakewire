@@ -101,3 +101,10 @@ footer{background:#151818;color:#f4f0e8;padding:48px 0 25px}.footgrid{display:fl
 
 .articlebody-inline{grid-template-columns:minmax(100px,.45fr) minmax(0,1.6fr)}
 @media(max-width:850px){.articlebody-inline{grid-template-columns:minmax(0,1fr)}}
+
+.newsletter-issue .prose { max-width: 760px; margin-inline: auto; padding-bottom: 48px; }
+.newsletter-issue .prose h2 { border-top: 1px solid currentColor; margin-top: 2em; padding-top: .75em; }
+.newsletter-issue .prose .take { background: #f7dfcc; border-left: 5px solid #a63424; padding: 16px 20px; }
+.newsletter-issue .table { overflow-x: auto; }
+.newsletter-issue table { border-collapse: collapse; width: 100%; }
+.newsletter-issue th, .newsletter-issue td { border-bottom: 1px solid #ab9d90; padding: 8px; text-align: left; }
